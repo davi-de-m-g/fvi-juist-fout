@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="lib/font-awesome-4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300">
+    <title>De fundamenten van de informatica quiz</title>
+</head>
+<body>
+<header>
+    <div class="content">
+        <h1><span>De fundamenten van de </span> <span>informatica</span> <span>juist of fout quiz</span></h1>
+    </div>
+</header>
+<main id="main" role="main">
+
+    <div class="content"> 
+
+        <section id="quiz" class="hidden">
+            <div id="stats" class="clearfix">
+                <div id="stats-score">SCORE: <span class="score">0</span></div>
+                <div id="stats-progress">VRAAG: <span class="progress">0/0</span></div>
+            </div>
+            <div id="question">
+                <div id="icon"><i class="fa fa-bolt"></i></div>
+                <p id="text">[question text goes here]</p>
+                <form>
+                <div><input type="radio" name="ans" value="1"> <span id="option-1">[option one]</span> </div>
+                <div><input type="radio" name="ans" value="2"> <span id="option-2">[option two]</span> </div>
+                </form>
+                <button id="answer-btn">Verifieer</button>  
+            </div>
+        </section>
+
+        <section id="start" class="clearfix">
+            <div id="instruct">
+                <h2>Regels</h2>
+                <p><strong>Doel</strong>: Beantwoord 10 willekeurig geselecteerde trivia vragen omtrent de FVI-cursus.</p>
+            </div>
+            <div id="btn-area">
+                <button id="start-btn"> START! </button>            
+            </div>
+        </section>
+
+        <section id="testimonials">
+            
+            <p><sup><i class="fa fa-quote-left"></i></sup> Super Mario Bros, Donkey Kong and all the Legend of Zelda games prove to be NP-hard problems! <sup><i class="fa fa-quote-right"></i></sup> <br> &mdash; <em>Giovanni Viglietta</em></p>
+            
+            <p class="hidden"><sup><i class="fa fa-quote-left"></i></sup> Codes are a puzzle. A game, just like any other game.<sup><i class="fa fa-quote-right"></i></sup> <br> &mdash; <em>Alan Turing</em></p>
+            
+            <p class="hidden"><sup><i class="fa fa-quote-left"></i></sup> A computer would deserve to be called intelligent if it could deceive a human into believing that it was human. <sup><i class="fa fa-quote-right"></i></sup> <br> &mdash; <em>Alan Turing</em></p>
+                        
+            <p class="hidden"><sup><i class="fa fa-quote-left"></i></sup> <a href="https://www.youtube.com/watch?v=csInNn6pfT4">Vastepuntstheorie door Vsauce. (youtube) </a> <sup><i class="fa fa-quote-right"></i></sup> <br> &mdash; <em></em></p>      
+            
+            <p class="hidden"><sup><i class="fa fa-quote-left"></i></sup> <a href="https://www.youtube.com/watch?v=YX40hbAHx3s">P vs NP problemen (youtube) </a> <sup><i class="fa fa-quote-right"></i></sup> <br> &mdash; <em></em></p>
+            
+        
+        </section>
+
+        <section id="correct" class="pop-up hidden">
+            <h2>Juist!<br>+1</h2>
+            <p class="answer-exp">[x]</p>
+            <p>Proficiat, je hebt nu <span class="score">0</span> punten.</p>
+            <br>
+            <p><button class="cont-btn">Verder</button></p>
+        </section>
+
+        <section id="wrong" class="pop-up hidden">
+            <h2>Fout!</h2>
+            <p class="answer-exp">[x]</p>
+            <p>Je scoorde geen punt!<br>...<br>Je hebt <span class="score">0</span> punt(en).</p>
+            <br>
+            <p><button class="cont-btn">Verder</button></p>
+        </section>
+        <section id="final" class="pop-up hidden">
+            <h2>Final Score: <span class="score">0</span>/10</h2>
+            <p>Rank: <br><span class="rank">[rank]</span></p>
+            <p><span class="rank-msg">[msg]</span></p>
+            <br>
+            <p><button id="start-over">Opnieuw</button></p>
+        </section>
+
+    </div>
+
+</main>
+<footer>
+    <div class="content">
+    </div>    
+</footer>
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

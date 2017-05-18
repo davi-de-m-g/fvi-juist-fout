@@ -1,0 +1,180 @@
+html {
+  color: #fffadd;
+  font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased; }
+body {
+  font-size: 10px;
+  font-size: 1rem;
+  background-image: url("../img/circuits.png"); }
+
+.content {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center; }
+
+a{
+    color: #FFFFFF;
+}
+.hidden {
+  display: none; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+main {
+  margin: 2rem 0; }
+
+section {
+  margin: 4px 0; }
+
+h1 {
+  text-shadow: 2px 2px 4px #000000;
+  letter-spacing: 0.6rem;
+  text-transform: uppercase; }
+  h1 span {
+    display: block;
+    font-size: 4.6rem; }
+  h1 span:last-of-type {
+    font-size: 3rem; }
+  h1 span:first-of-type {
+    font-size: 2rem; }
+
+#start {
+  width: 100%;
+  border-top: 1px dashed #fffadd;
+  border-bottom: 1px dashed #fffadd;
+  font-size: 1.6rem; }
+  #start #instruct {
+    background-color: rgba(52, 81, 133, 0.6);
+    float: left;
+    width: 56%;
+    margin: 1.25%; }
+  #start #instruct p {
+    padding: 1rem; }
+  #start #btn-area {
+    float: right;
+    width: 36%;
+    margin: 1.25%; }
+  #start #btn-area button {
+    padding: 1.2rem 3rem; }
+  #start h2 {
+    color: #fffadd;
+    letter-spacing: 0.1rem;
+    font-weight: 500; }
+
+#testimonials {
+  border-bottom: 1px dashed #fffadd;
+  font-size: 2rem; }
+  #testimonials p {
+    padding: 2rem; }
+
+button {
+  background-color: #66cc99;
+  padding: 12px;
+  border: 2px solid #000000;
+  color: #fffadd;
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 1px #000000;
+  cursor: pointer; }
+
+#quiz {
+  width: 100%;
+  margin: 0 auto; }
+
+#stats {
+  background-color: rgba(0, 0, 71, 0.5);
+  border-top: 1px solid #3366cc;
+  border-right: 1px solid #3366cc;
+  border-left: 1px solid #3366cc;
+  padding: 10px;
+  font-size: 1.2rem; }
+  #stats #stats-score {
+    float: left;
+    letter-spacing: 0.2rem; }
+  #stats #stats-progress {
+    float: right;
+    letter-spacing: 0.2rem; }
+  #stats .score, #stats .progress {
+    color: #94A3D1; }
+
+#question {
+  background-color: rgba(0, 0, 71, 0.5);
+  border: 1px solid #3366cc;
+  padding: 3% 10% 3% 10%;
+  font-size: 2rem; }
+  #question strong {
+    color: #94a3d1;
+    font-weight: normal; }
+  #question #icon {
+    font-size: 4rem; }
+  #question form {
+    margin-left: 18%;
+    text-align: left; }
+  #question form div {
+    margin: 0;
+    padding: 1px;
+    font-size: 1.7rem; }
+
+.pop-up {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 2rem; }
+  .pop-up p {
+    margin: 2rem; }
+  .pop-up .answer-exp {
+    font-size: 1.6rem;
+    color: #fffadd; }
+  .pop-up .score {
+    color: #fffadd;
+    font-size: 2.4rem; }
+
+#correct {
+  color: #7BCD8A;
+  background-color: rgba(0, 0, 71, 0.5); }
+  #correct h2 {
+    font-size: 3rem;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase; }
+
+#wrong {
+  color: #FD1F58;
+  background-color: rgba(0, 0, 71, 0.5); }
+  #wrong h2 {
+    font-size: 3rem;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase; }
+
+#final {
+  border: 1px solid #3366cc;
+  background-color: rgba(0, 0, 71, 0.5); }
+  #final h2 {
+    font-size: 3rem; }
+  #final .score, #final .rank {
+    font-size: 3rem;
+    color: #66cc99;
+    padding-left: 1rem; }
+
+footer {
+  color: #cccccc; }
+  footer .disclaim {
+    padding-left: 20%;
+    padding-right: 20%; }
+  footer div {
+    margin-bottom: 1rem; }
+
+@media (max-width: 600px) {
+  #start #instruct, #start #btn-area {
+    float: none;
+    width: 94%; }
+
+  footer .disclaim {
+    padding: 2rem; } }
+
+/*# sourceMappingURL=main.css.map */
