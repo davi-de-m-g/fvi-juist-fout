@@ -38,14 +38,19 @@
         <section id="start" class="clearfix">
             <div id="instruct">
                 <h2>Regels</h2>
-                <p><strong>Doel</strong>: Beantwoord 10 willekeurig geselecteerde trivia vragen omtrent de FVI-cursus.</p>
+                <p><strong>Doel</strong>: Beantwoord willekeurig geselecteerde trivia vragen omtrent de FVI-cursus.</p>
             </div>
             <div id="btn-area">
-                <button id="start-btn"> START! </button>            
+                <button id="start-btn"> START! </button> 
+                <h4>Amount of questions:</h4>
+            <input type="radio" name="questions_amount" value="50" > 50 
+            <input type="radio" name="questions_amount" value="30" checked="checked"> 30 
+            <input type="radio" name="questions_amount" value="10" > 10 
             </div>
+            
         </section>
 
-        <section id="testimonials">
+    <section id="testimonials">
             
             <p><sup><i class="fa fa-quote-left"></i></sup> Super Mario Bros, Donkey Kong and all the Legend of Zelda games prove to be NP-hard problems! <sup><i class="fa fa-quote-right"></i></sup> <br> &mdash; <em>Giovanni Viglietta</em></p>
             
@@ -71,12 +76,13 @@
         <section id="wrong" class="pop-up hidden">
             <h2>Fout!</h2>
             <p class="answer-exp">[x]</p>
-            <p>Je scoorde geen punt!<br>...<br>Je hebt <span class="score">0</span> punt(en).</p>
+            <img class="answer-img" src="">
+            <p>Je scoorde geen punt!<br><br>Je hebt <span class="score">0</span> punt(en).</p>
             <br>
             <p><button class="cont-btn">Verder</button></p>
         </section>
         <section id="final" class="pop-up hidden">
-            <h2>Final Score: <span class="score">0</span>/10</h2>
+            <h2>Final Score: <span class="score">0</span></h2>
             <p>Rank: <br><span class="rank">[rank]</span></p>
             <p><span class="rank-msg">[msg]</span></p>
             <br>
