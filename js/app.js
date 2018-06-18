@@ -22,12 +22,14 @@ $(document).ready(function() {
                     score++;
                     updateScore();
                     $('.answer-exp').text(quiz_questions[num]["answer-exp"]);
+                    $('#barequestion').fadeIn(500);
                     $('#correct').fadeIn(500);    
                 });
             } else {
                 $('#quiz').fadeOut(500, function() {
                     $('.answer-exp').text(quiz_questions[num]["answer-exp"]);
                     $('.answer-img').attr("src",quiz_questions[num]["answer-img"]);
+                    $('#barequestion').fadeIn(500);
                     $('#wrong').fadeIn(500);
                 });
             }
@@ -39,11 +41,14 @@ $(document).ready(function() {
                 if (count >= count_limit) {
                     updateFinalScore();
                     updateRank();
+                    $('#barequestion').fadeOut(500);
                     $('#final').fadeIn(500);
+                    
                 } else {
                     findQuestion();
                     loadQuestion();
                     $('form input').prop('checked', false);
+                    $('#barequestion').fadeOut(0);
                     $('#quiz').fadeIn(500);
                 }
             });
@@ -115,8 +120,9 @@ var loadQuestion = function() {
     prior_questions.push(num);    
     $('#icon').html("<i class=\"fa fa-"+quiz_questions[num]["icon"]+"\"></i>");
     $('#text').html(quiz_questions[num]["question"]);
+    $('#textb').html(quiz_questions[num]["question"]);
     $('#option-1').html(quiz_questions[num]["options"][1]);
-    $('#option-2').html(quiz_questions[num]["options"][2]);    
+    $('#option-2').html(quiz_questions[num]["options"][2]);     
     updateScore();
     count++;
     $('.progress').text(count+"/"+count_limit);
@@ -143,7 +149,7 @@ var updateRank = function() {
         $('.rank-msg').text('You have mad fundamenten skillz!');
     } else if (score >= count_limit*0.60 && score <= count_limit*0.80) {
         $('.rank').text('Fundapprentice');
-        $('.rank-msg').text('You may not be the best, but your not the worst.');
+        $('.rank-msg').text('You may not be the best, but you are not the worst.');
     } else if (score >= count_limit*0.50 && score <= count_limit*0.60) {
         $('.rank').text('Fundameh..');
         $('.rank-msg').text('Meh. Geslaagd. Maar not a great score.');
@@ -437,7 +443,7 @@ var quiz_questions = {
     },
     26: {
         "icon": "book",
-        "question": "Elke reguliere taal is eindig. (= Reguliere talen zijn eindig)",
+        "question": "Reguliere talen zijn eindig",
         "options": {
             1: "Juist",
             2: "Fout",
@@ -982,7 +988,7 @@ var quiz_questions = {
         },
         "answer": 2,
         "answer-img": "",
-        "answer-exp": "Elke graaf G heeft een Euleriaanse kring als en slechts als de graaf samenhangend is en elke knoop een even graad heeft. "
+        "answer-exp": "Elke graaf G heeft een Euleriaanse kring als en slechts als de graaf !samenhangend! is en elke knoop een even graad heeft."
 
     },
     72: {
