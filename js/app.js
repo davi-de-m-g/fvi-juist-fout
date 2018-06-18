@@ -161,6 +161,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Een string over een alfabet ∑ is een eindige rij symbolen. {def 4.2}"
     },
     2: {
@@ -171,6 +172,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Een taal is een verzameling over een alfabet ∑. (def 4.3) .De aantal combinaties hierbij zijn eindeloos."
     },
     3: {
@@ -181,6 +183,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Een taal is een verzameling over een alfabet ∑. (def 4.3) (~Een taal over ∑is een deelverzameling van ∑* ."
     },
     4: {
@@ -191,6 +194,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "We nemen als voorbeeld; alle zinnen in het Nederlands en alle zinnen in Frans. Beide talen zijn niet regulier. NF^*N gaat evenzeer niet regulier zijn. "
     },
     5: {
@@ -201,6 +205,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "De asterix geeft aan dat er oneindig vaak een element (a) mag toegevoegd worden aan een string. Dit geeft oneindig veel mogelijkheden en dus oneindig veel strings."
     },
     6: {
@@ -211,6 +216,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Voor elke niet-determinische eindige automaat bestaat er een deterministische automaat die dezelfde taal herkent. (stelling 4.4)"        
     },
     7: {
@@ -221,6 +227,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Voor elke niet-determinische eindige automaat bestaat er een deterministische automaat die dezelfde taal herkent. (stelling 4.4) Verder zijn niet-deterministische automaten vaak veel eenvoudiger om te ontwikkelen. Elke deterministische eindige automaat kan aanzien worden als een niet-deterministische automaat. Efficiëntie is in dit geval duidelijk steeds gelijk."
     },
     8: {
@@ -231,6 +238,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Alles wat kan gedaan worden met een NDTM, kan ook gedaan worden met een DTM (en vice versa). Het Haltin probleem is bijvoorbeeld niet oplosbaar door beide. MAAR; NPC problemen kunnen polynomiaal opgelost worden door NDTM en voor DTM weet men niet hoe dit polynomiaal kan oplossen. "
     },
     9: {
@@ -241,6 +249,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Indien L1∝ L2 en L2 Є P dan is ook L1 Є P (stelling 4.8). Deze relatie werkt maar in één richting, niet vice versa. Indien L ~ T (dus L ∝ T en  T ∝ L), dan had dit wel waar geweest."
     },
     10: {
@@ -251,6 +260,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "P en NPC zijn beide deelverzamelingen van NP. Een taal L is NP-compleet als en slechts als L Є NP en voor elke andere taal L’ Є NP geldt dat L’∝ L. (def 4.32)"
     },
     11: {
@@ -261,6 +271,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "P en NPC zijn beide deelverzamelingen van NP. Een taal L is NP-compleet als en slechts als L Є NP en voor elke andere taal L’ Є NP geldt dat L’∝ L. (def 4.32)"
     },
     12: {
@@ -271,6 +282,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Een samenhangde vlakke graaf voldoet aan deze formule. Zie formule van Euler (stelling 5.14)"
     },
     13: {
@@ -281,6 +293,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Een graaf is samenhangend als en slechts als tussen elke twee knopen van de graaf een pad bestaat (def 5.10)"
     },
     14: {
@@ -291,6 +304,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Door een knoop van graad 2 van K2,2 te verwijderen en te vervangen door één boog bekom je K3. \n Een graaf G(V,E) is homeomorf als en slechts als G’ uit G bekomen kan worden door een of meer keren een knoop v van graad 2 te kiezen, die samen met zijn invallende bogen (v,w) en (v,u) te verwijderen, en boog (u,w) toe te voegen. (def 5.24)"
     },
     15: {
@@ -301,6 +315,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Het hebben van hetzelfe aantal knopen is één van de eigenschappen van isomorfisme.(Zie def 5.21)"
     },
     16: {
@@ -311,6 +326,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Vanzelfsprekend. \n Een graaf G(V,E) is homeomorf als en slechts als G’ uit G bekomen kan worden door een of meer keren een knoop v van graad 2 te kiezen, die samen met zijn invallende bogen (v,w) en (v,u) te verwijderen, en boog (u,w) toe te voegen. (def 5.24)"
     },
     17: {
@@ -321,6 +337,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Het vinden van een Hamiltoniaanse kring vereist backtracking. Dit is een karakteristiek van een NP-compleet probleem."
     },
     18: {
@@ -331,6 +348,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Een euleriaanse kring kan men bepalen in polynomiale tijd. Dus wtf?"
     },
     19: {
@@ -341,6 +359,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Dit is het TSP. Het zoeken van een oplossing ligt in NP en het verifieren van de oplossing gaat ook niet in polynomiale tijd. Dit probleem is dus NP-hard."
 
     },
@@ -352,6 +371,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Een boom is een samenhangende graaf met n knopen en n-1 bogen. (Equivalente definitie van een boom)"
 
     },
@@ -363,6 +383,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Een samenhangende graaf moet ook kringvrij zijn. (stelling 5.22)"
 
     },
@@ -374,6 +395,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Beiden zijn algoritmes voor het vinden van een minimaal opspannende boom in een gewogen graaf."
 
     },
@@ -385,6 +407,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Prim kiest herhalend een nieuwe edge met het laagst mogelijke gewicht. Indien er nu meerdere zo’n edges bestaan, zijn er ook meerdere oplossingen mogelijk. Prim en Kruskal garanderen enkel dezelfde oplossing indien ieder gewicht in de graaf uniek is."
 
     },
@@ -396,6 +419,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Aangezien een boom geen kringen bevat, volstaan 2 kleuren."
 
     },
@@ -407,6 +431,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Indien een taal geaccepteerd wordt door een eindige machine, is de taal regulier. Een eindige taal wordt geaccepteerd door een eindige automaat. In andere woorden: voor n geldige strings Ei (1 ≤ i ≤ n): E1|E2|E3|...|En "
 
     },
@@ -418,6 +443,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "De verzameling van getallen groter dan 100, is regulier en oneindig. Alsook bv de taal a^* is regulier en oneindig"
 
     },
@@ -429,6 +455,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "De verzameling van getallen groter dan 100, is regulier en bevat geen lege string."
 
     },
@@ -440,6 +467,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Je kan een determenistische eindige automaat opstellen die de lege string accepteert. Indien een machine geen enkele string accepteert, herkent het nog steeds één taal. Namelijk de lege taal."
 
     },
@@ -451,6 +479,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Neem de Nederlandse taal L met alfabet ∑ = {a,b,c,..,z,A,B,C,...,Z} en x = “snot” en y = “vlees”. Dus is xy = “snotvlees” en dit behoort niet tot de taal L."
 
     },
@@ -462,6 +491,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "De klasse van talen die eindige automaten accepteren reguliere talen, vallen samen."
 
     },
@@ -473,6 +503,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Iedere verzameling die als reguliere expressie te schrijven valt, is tevens ook een reguliere taal. In dit geval (ab)*"
 
     },
@@ -484,6 +515,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Iedere verzameling die als reguliere expressie te schrijven valt, is tevens ook een reguliere taal. In dit geval (a*b*)"
 
     },
@@ -495,6 +527,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Geen enkel natuurlijk getal in oneindig, maar er zijn oneindig veel natuurlijke getallen. Dus voor iedere n kan je een eindige automaat maken die a^n b^n herkent, maar je kan er geen één enkele construeren voor alle mogelijke n.                                           Dit kan bewezen worden adhv de Pompstelling (stelling 4.3)                                       Bewijs: Stel dat L regulier is. Dan bestaat er volgens de pompstelling een getal k zodat |s| ≥ k en kan elke string bestaan uit s = xyz met |xy| ≤ k en |y| > 0                                                                            Stel s = aaabbb en k = 5                                       s = aa a bbb met |xy| ≤ 5 en y = bbb.                                       Een eindige automaat die s accepteert, moet xy²z ook accepteren.In dat geval bevat de string meer a's dan b's en is de taal niet correct. Contradictie."
     },
     34: {
@@ -505,6 +538,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Geen enkel natuurlijk getal in oneindig, maar er zijn oneindig veel natuurlijke getallen en wiskundige uitdrukkingen. Dus voor iedere uitdrukking kan je een eindige automaat maken die een bepaalde wiskunde uitdrukking herkent, maar je kan er geen één enkele construeren voor alle mogelijke combinaties."
 
     },
@@ -516,6 +550,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "De klasse van talen die herkend worden door een eindige automaat valt precies samen met de klasse van de reguliere talen (stelling 4.2)"
 
     },
@@ -527,6 +562,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Java is turing compleet. Dit wil zeggen dat het een systeem is waarin een programma geschreven kan worden dat een antwoord kan vinden op iedere gegevensbewerking. In principe betekent dit dat java gebruikt kan worden voor eender werk berekenbaar probleem. "
 
     },
@@ -538,6 +574,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Iedere staat van een eindige automaat is op zichzelf een booleaanse operator, die voor een bepaalde input een bepaalde output geeft. "
 
     },
@@ -549,6 +586,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Een turing machine is in principe een eindige automaat.Er bestaat een functie f: N->N die niet Turing-berekenbaar is. (stelling 4.6)"
 
     },
@@ -560,6 +598,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Er bestaat een functie f: N->N die niet Turing-berekenbaar is. (stelling 4.6)"
 
     },
@@ -571,6 +610,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "SAT is NP-Compleet (stelling 4.10)"
 
     },
@@ -582,6 +622,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "De stelling van Cook zegt dat SAT een NP-Compleet probleem is en niets meer. Verder heeft men nog niet kunnen bewijzen dat een probleem in NP ook in P kan zitten. Een van de zeven 'millennium problems' – wiskundige vraagstukken waarmee een miljoen dollar verdiend kan worden – is het 'P versus NP probleem'. "
 
     },
@@ -593,6 +634,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "O(n^3) is inderdaad een bovengrens voor de effectieve complexiteit O(n²). Het algoritme kan zelfs uitgevoerd worden in tijd O(|V| log|V|+|E|)."
 
     },
@@ -604,6 +646,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Assymptotisch is Dijkstra eerder equivalent met n². "
 
     },
@@ -615,6 +658,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Een functie is effectief berekenbaar als en slechts als die Turing-berekenbaar is. (stelling 4.5 These van Church)"
 
     },
@@ -626,6 +670,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Een graaf G heeft een Euleriaanse kring als en slechts als de graaf samenhangend is en elke knoop een even graad heeft. (stelling 5.4)"
 
     },
@@ -637,6 +682,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Een samenhangende vlakke graaf kan knopen bevatten met een oneven graad. En een graaf G heeft een Euleriaanse kring als en slechts als de graaf samenhangend is en elke knoop een even graad heeft. (stelling 5.4)"
 
     },
@@ -648,6 +694,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Beide grafen hun incidentiematricies zijn gelijk. En twee grafen G en G’ zijn isomorf als en slechts als er een ordening van de knopen en bogen bestaat waarvoor de incidentiematrices van G en G’ gelijk zijn.  "
 
     },
@@ -659,6 +706,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Een tweeledige graaf kan per definitie opgesplitst worden in twee deelverzamelingen, zodat er enkel bogen bestaan tussen V1 en V2, maar nooit binnen V1 of V2. Hierbij is de mogelijkheid van een tweekleuring vanzelfsprekend. "
 
     },
@@ -670,6 +718,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "K3,3 is een voorbeeld van een tweeledige graaf. En K5 en K3,3 zij niet vlak (stelling 5.15)"
 
     },
@@ -681,6 +730,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Elke vlakke graaf heeft een vierkleuring. (door K. Appel en W. Haken)"
 
     },
@@ -692,6 +742,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "K5 en K3,3 zij niet vlak (stelling 5.15)"
 
     },
@@ -703,6 +754,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Iedere knoop is verbonden met 3 knopen die onderlings niet verbonden zijn. Wat een vierkleuring mogelijk maakt."
 
     },
@@ -714,6 +766,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Elke niet-vlakke graaf bevat K5 of K3,3 als subgraaf. (Stelling van Kuratowski) K5 en K3,3 bevatten beiden kringen."
 
     },
@@ -725,6 +778,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Een graaf is vlak als en slechts als de graaf geen deelgraaf bevat die homeomorf is met K5 of K3,3."
 
     },
@@ -736,6 +790,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Als we voor K3 dit toepassen, dan hebben we niet genoeg bogen over om alle knopen te verbinden. Dus is de graaf niet meer samenhangend. En een boom is een samenhangende graaf die geen kringen bevat."
 
     },
@@ -747,6 +802,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "De tijdscomplexiteit van Prim is E log2 V. Dus is logaritmisch in het aantal knopen en lineair in het aantal edges."
 
     },
@@ -758,6 +814,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Tijdscomplexiteit voor prim is Elog2(V). Dus is het linear in het aantal bogen. (Wina wiki zei fout)"
 
     },
@@ -769,6 +826,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Een graaf moet hiervoor niet vlak zijn . Als G samenhangend is, dan bestaat er een opspannende boom T voor G. (Stelling 5.23)"
 
     },
@@ -780,6 +838,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Indien een taal geaccepteerd wordt door een eindige machine, is de taal regulier. En een eindige taal wordt steeds geaccepteerd door een eindige automaat. "
 
     },
@@ -791,6 +850,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "De lege string is een reguliere uitdrukking, maar een reguliere taal hoeft daarom niet de lege string te bevatten. Alle cijfers van 0 tot 100 is bv een reguliere taal en bevat geen lege string."
 
     },
@@ -802,6 +862,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Regexen kunnen gecheckt worden in een deterministische eindige automaat. Zo’n automaat kan een string van lengte n in O(n) tijd matchen."
 
     },
@@ -813,6 +874,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Bv: Een string s = abababababbb van gegeven reguliere taal L =  {a,b}*{bb}, zal stoppen en beslissen dat  s ∈ L(A) na 12 stappen."
 
     },
@@ -824,6 +886,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Geen enkel natuurlijk getal in oneindig, maar er zijn oneindig veel natuurlijke getallen. Dus voor iedere n kan je een eindige automaat maken die a^n b^n herkent, maar je kan er geen één enkele construeren voor alle mogelijke n.                                           Dit kan bewezen worden adhv de Pompstelling (stelling 4.3)                                       Bewijs: Stel dat L regulier is. Dan bestaat er volgens de pompstelling een getal k zodat |s| ≥ k en kan elke string bestaan uit s = xyz met |xy| ≤ k en |y| > 0                                                                            Stel s = aaabbb en k = 5                                       s = aa a bbb met |xy| ≤ 5 en y = bbb.                                       Een eindige automaat die s accepteert, moet xy²z ook accepteren.In dat geval bevat de string meer a's dan b's en is de taal niet correct. Contradictie."
     },
     64: {
@@ -834,6 +897,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Geen enkel natuurlijk getal in oneindig, maar er zijn oneindig veel natuurlijke getallen. Dus voor iedere n kan je een eindige automaat maken die a^n b^n herkent, maar je kan er geen één enkele construeren voor alle mogelijke n. In dit voorbeeld zijn er maar 11 mogelijkheden voor n, hier kan wel een eindige automaat voor geconstrueerd worden."
 
     },
@@ -845,6 +909,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Stelling 4.6: Er bestaat een functie N→N die niet turing berekenbaar is. {0,1} ⊆ N. Je zou een oneindige rij turingmachines kunnen construeren."
 
     },
@@ -856,6 +921,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Er is bewezen dat er een functie N→N bestaat waarvoor geen turing machine bestaat, als je probeert om analoog te bewijzen dat bovenstaande stelling klopt, kom je tot een contradictie."
 
     },
@@ -867,6 +933,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Iedere staat van een eindige automaat is op zichzelf een booleaanse operator, die voor een bepaalde input een bepaalde output geeft. "
 
     },
@@ -878,6 +945,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Als voor twee talen L1 & L2 geldt dat L1 α L2 en L2 ∈ P dan is ook L1 ∈ P. Als L1  α L2 en L2 α L1 dan noemen we ze polynomiaal equivalent."
 
     },
@@ -889,6 +957,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "P & NP liggen beide (mogelijks) in NP"
 
     },
@@ -900,6 +969,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Een samenhangen graaf waarvoor geldt dat alle knopen een even graad hebben heeft een Euleriaanse kring"
 
     },
@@ -911,6 +981,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Elke graaf G heeft een Euleriaanse kring als en slechts als de graaf samenhangend is en elke knoop een even graad heeft. "
 
     },
@@ -922,6 +993,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Een graaf die een kliek N bevat zal minstens N kleuren nodig hebben."
 
     },
@@ -933,6 +1005,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "De graaf moet enkelvoudig zijn. Indien de graaf enkelvoudig is, dan heeft de graaf een n-kleuring."
 
     },
@@ -944,6 +1017,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Volgens de formule van Euler voldoet een graaf aan v - e + f = 2 ASA de graaf samenhangend is  en v groter of gelijk is aan 1."
 
     },
@@ -955,6 +1029,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Beiden zijn algoritmes voor het vinden van een minimaal opspannende boom in een gewogen graaf."
 
     },
@@ -965,6 +1040,7 @@ var quiz_questions = {
             1: "Juist",
             2: "Fout",
         },
+        "answer-img": "",
         "answer": 2,
         "answer-exp": "Prim kiest herhalend een nieuwe edge met het laagst mogelijke gewicht. Indien er nu meerdere zo’n edges bestaan, zijn er ook meerdere oplossingen mogelijk. Prim en Kruskal garanderen enkel dezelfde oplossing indien ieder gewicht in de graaf uniek is."
 
@@ -977,6 +1053,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Bevat sowieso bovengrens, maar niet per se supremum."
 
     },
@@ -988,6 +1065,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Gericht deel bevat telkens een bovengrens."
     },
     79: {
@@ -998,6 +1076,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Polynoom is dan van graad k+1."
     },
     79: {
@@ -1008,6 +1087,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "NPC is nog apart."
     },
     80: {
@@ -1018,6 +1098,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "A set is countable if its elements can be placed in a 1-to-1 correspondence with the natural numbers."
     },
     81: {
@@ -1028,6 +1109,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Tegenvoorbeeld vinden is triviaal."
     },
     82: {
@@ -1038,6 +1120,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "N is regulier, Priemgetallen niet."
     },
     83: {
@@ -1048,6 +1131,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": ""
     },
     84: {
@@ -1058,6 +1142,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "N bevat aftelbaar veel getallen. Als A deel is van N dan is A: eindig, leeg of aftelbaar."
     },
     85: {
@@ -1068,6 +1153,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Als A C_ N dan is A: eindig, leeg of aftelbaar."
     },
     86: {
@@ -1078,6 +1164,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Fout. Er bestaan talen die niet regulier zijn."
     },
     87: {
@@ -1088,6 +1175,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "TS*T is een expressie van zichzelf en die ook regulier."
     },
     88: {
@@ -1097,6 +1185,7 @@ var quiz_questions = {
             1: "Juist",
             2: "Fout",
         },
+        "answer-img": "",
         "answer": 2,
         "answer-exp": "Fout"
     },
@@ -1107,6 +1196,7 @@ var quiz_questions = {
             1: "Juist",
             2: "Fout",
         },
+        "answer-img": "",
         "answer": 2,
         "answer-exp": "Een oneindig lange string bestaat niet."
     },
@@ -1117,6 +1207,7 @@ var quiz_questions = {
             1: "Juist",
             2: "Fout",
         },
+        "answer-img": "",
         "answer": 2,
         "answer-exp": "Fout."
     },
@@ -1127,6 +1218,7 @@ var quiz_questions = {
             1: "Juist",
             2: "Fout",
         },
+        "answer-img": "",
         "answer": 2,
         "answer-exp": "Niet waar. Als er een ander pad is dat eindigt in een aanvaardbare eindtoestand wordt x aanvaard. Voor deterministische eindige automaten is deze stelling wel waar, want daar is er voor elke invoerstring juist één pad. "
     },
@@ -1137,6 +1229,7 @@ var quiz_questions = {
             1: "Juist",
             2: "Fout",
         },
+        "answer-img": "",
         "answer": 1,
         "answer-exp": "Waar. De voorwaarde uit deﬁnitie 4.9 is dan vervuld, want de doorsnede δ∗(q0,x) ∩ F bevat minstens één element en is dus niet leeg. Ook voor deterministische eindige automaten is dit waar."
     },
@@ -1148,6 +1241,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Waar."
     },
     94: {
@@ -1158,6 +1252,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Waar."
     },
     95: {
@@ -1168,6 +1263,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Waar."
     },
     96: {
@@ -1178,6 +1274,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Waar."
     },
     97: {
@@ -1188,6 +1285,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "T(a) = a is een vast punt."
     },
     98: {
@@ -1198,6 +1296,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": ""
     },
     99: {
@@ -1208,6 +1307,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Waar."
     },
     100: {
@@ -1218,6 +1318,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Waar."
     },
     101: {
@@ -1228,6 +1329,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Juist."
     },
     102: {
@@ -1238,6 +1340,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Fout. Evenveel knopen is isomorfisme."
     },
     103: {
@@ -1248,6 +1351,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Waar."
     },
     104: {
@@ -1258,6 +1362,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": ""
     },
     105: {
@@ -1268,6 +1373,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "x € [5;6[ 6 ligt er niet in maar is wel T"
     },
     106: {
@@ -1278,6 +1384,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Fout. Een samenhangende vlakke graaf."
     },
     107: {
@@ -1288,6 +1395,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Waar."
     },
     108: {
@@ -1298,6 +1406,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Waar."
     },
     109: {
@@ -1307,6 +1416,7 @@ var quiz_questions = {
             1: "Juist",
             2: "Fout",
         },
+        "answer-img": "",
         "answer": 1,
         "answer-exp": "Waar. Y not."
     },
@@ -1317,6 +1427,7 @@ var quiz_questions = {
             1: "Juist",
             2: "Fout",
         },
+        "answer-img": "",
         "answer": 1,
         "answer-exp": "Waar.Enkelvoudig, bevat geen lussen noch parallelle bogen."
     },
@@ -1327,6 +1438,7 @@ var quiz_questions = {
             1: "Juist",
             2: "Fout",
         },
+        "answer-img": "",
         "answer": 2,
         "answer-exp": ""
     },
@@ -1337,6 +1449,7 @@ var quiz_questions = {
             1: "Juist",
             2: "Fout",
         },
+        "answer-img": "",
         "answer": 1,
         "answer-exp": ""
     },
@@ -1347,6 +1460,7 @@ var quiz_questions = {
             1: "Juist",
             2: "Fout",
         },
+        "answer-img": "",
         "answer": 1,
         "answer-exp": "Waar."
     },
@@ -1357,6 +1471,7 @@ var quiz_questions = {
             1: "Juist",
             2: "Fout",
         },
+        "answer-img": "",
         "answer": 1,
         "answer-exp": "Waar. Mono = sup(T(x)) =< T(sup(x))  en continu = T(sup(x))=sup(T(x)) en continu impliceert monotoon"
     },
@@ -1367,6 +1482,7 @@ var quiz_questions = {
             1: "Juist",
             2: "Fout",
         },
+        "answer-img": "",
         "answer": 2,
         "answer-exp": "Fout."
     },
@@ -1377,6 +1493,7 @@ var quiz_questions = {
             1: "Juist",
             2: "Fout",
         },
+        "answer-img": "",
         "answer": 1,
         "answer-exp": "Noteer met ωi de reguliere expressie voor Li. De reguliere expressie (ω1)(ω2) bepaalt de taal L1L2, die dus regulier is.."
     },
@@ -1387,6 +1504,7 @@ var quiz_questions = {
             1: "Juist",
             2: "Fout",
         },
+        "answer-img": "",
         "answer": 1,
         "answer-exp": "Waar: ⊆ is transitief: als B ⊆ A ⊆ Σ∗ dan is ook B ⊆ Σ∗"
     },
@@ -1397,6 +1515,7 @@ var quiz_questions = {
             1: "Juist",
             2: "Fout",
         },
+        "answer-img": "",
         "answer": 2,
         "answer-exp": "Niet waar: {0^n1^n|n ∈ N} ⊂ 0∗1∗ ⊂ Σ∗ Opmerking: Als dit waar zou zijn, dan zou elke taal regulier zijn, want Σ∗ is regulier"
     },
@@ -1407,6 +1526,7 @@ var quiz_questions = {
             1: "Juist",
             2: "Fout",
         },
+        "answer-img": "",
         "answer": 2,
         "answer-exp": "Niet waar: {01,0011} ⊆ {0^n1^n|n ∈ N}"
     },
@@ -1417,6 +1537,7 @@ var quiz_questions = {
             1: "Juist",
             2: "Fout",
         },
+        "answer-img": "",
         "answer": 2,
         "answer-exp": "Niet waar: een geldige reguliere expressie kan geneste haakjes bevatten en een taal van strings met geneste haakjes is, net als {0^n1^n|n ∈ N}, niet regulier."
     },
@@ -1427,6 +1548,7 @@ var quiz_questions = {
             1: "Juist",
             2: "Fout",
         },
+        "answer-img": "",
         "answer": 1,
         "answer-exp": "Dit is stelling 4.4 vanuit de cursus. Voor elke niet-determinische eindige automaat bestaat er een deterministische automaat die dezelfde taal herkent."
     },
@@ -1437,6 +1559,7 @@ var quiz_questions = {
             1: "Juist",
             2: "Fout",
         },
+        "answer-img": "",
         "answer": 2,
         "answer-exp": "Niet waar. Volgens stelling 4.4 is er voor elke niet-deterministische automaat een deterministische die dezelfde taal herkent, en volgens stelling 4.2 zijn talen die door een deterministische eindige automaat herkend worden reguliere talen."
     },
@@ -1448,6 +1571,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Als er vanuit een bepaalde toestand niet voor elk symbool uit het alfabet een pijl vertrekt, dan is het strikt genomen geen deterministische eindige automaat. Bij niet deterministische eindige automaten mag dit wel."
     },
     124: {
@@ -1458,6 +1582,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 1,
+        "answer-img": "",
         "answer-exp": "Waar: voor elke n ∈ N kan je een Turing machine maken die de constante functie f : N → N : x → n berekent. Dit zijn uiteraard allemaal verschillende Turing machines, en het zijn er oneindig veel."
     },
     125: {
@@ -1468,6 +1593,7 @@ var quiz_questions = {
             2: "Fout",
         },
         "answer": 2,
+        "answer-img": "",
         "answer-exp": "Niet waar, aangezien niet elke Turing machine over dezelfde m symbolen hoeft te zijn. Als we aannemen dat de m symbolen vast staan, dan is de stelling wel waar, en kunnen we een bovengrens schatten op het aantal machines. Formeel kan dit als volgt (alhoewel informeel ook voldoende is): het programma P is een functie van een verzameling met hoogstens nm elementen naar een verzameling met 3nm elementen. Zo zijn er hoogstens (3nm+1)^nm. Er zijn 2^n mogelijke deelverzamelingen van Q (Q heeft n elementen), dus dat is ook het aantal mogelijke verzamelingen F van aanvaardbare eindtoestanden. Ook het aantal mogelijke verzamelingen T van invoersymbolen is eindig, namelijk 2^m−1 (waarom?). Er kunnen dus zeker niet meer dan (3nm + 1)^(nm)2^(n+m−1) Turing machines zijn met n toestanden en m symbolen."
     },
     126: {
