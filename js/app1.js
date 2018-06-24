@@ -820,9 +820,9 @@ var quiz_questions = {
             1: "Juist",
             2: "Fout",
         },
-        "answer": 1,
+        "answer": 2,
         "answer-img": "",
-        "answer-exp": "Tijdscomplexiteit voor prim is Elog2(V). Dus is het linear in het aantal bogen. (Wina wiki zei fout)"
+        "answer-exp": "Tijdscomplexiteit voor prim is Elog2(V). Lineairistisch ifv het aantal bogen."
 
     },
     58: {
@@ -1777,6 +1777,28 @@ var quiz_questions = {
         "answer": 2,
         "answer-img": "img/oefz9.2.2.4.JPG",                                
         "answer-exp": ""
+    },
+    142: {
+        "icon": "book",
+        "question": "Een ballon opblazen (probleemgrootte: diameter van de ballon) heeft een tijdscomplexiteit O(n^3).",
+        "options": {
+            1: "Juist",
+            2: "Fout",
+        },
+        "answer": 1,
+        "answer-img": "",                                
+        "answer-exp": "Correct. O(n^3) is een bovengrens voor het opblazen van het volume (3 dimensies) van de balon."
+    },
+    143: {
+        "icon": "book",
+        "question": "Een woord opzoeken in een woordenboek (probleemgrootte: aantal bladzijden van het woordenboek) heeft minstens een complexiteit O(n)",
+        "options": {
+            1: "Juist",
+            2: "Fout",
+        },
+        "answer": 2,
+        "answer-img": "",                                
+        "answer-exp": "Fout. Op een woordenboek kan men binary search toepassen. Per foutieve zoekopdracht kan men de probleemset halveren. Dit resulteert in Olog2(n)."
     }
 };
 
