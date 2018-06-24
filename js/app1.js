@@ -22,6 +22,7 @@ $(document).ready(function() {
                     score++;
                     updateScore();
                     $('.answer-exp').text(quiz_questions[num]["answer-exp"]);
+                    $('.answer-img').attr("src",quiz_questions[num]["answer-img"]);
                     $('#barequestion').fadeIn(500);
                     $('#correct').fadeIn(500);    
                 });
@@ -353,9 +354,9 @@ var quiz_questions = {
             1: "Juist",
             2: "Fout",
         },
-        "answer": 1,
+        "answer": 2,
         "answer-img": "",
-        "answer-exp": "Een euleriaanse kring kan men bepalen in polynomiale tijd. Dus wtf?"
+        "answer-exp": "Searching an Eulerian path requires no back-tracking."
     },
     19: {
         "icon": "book",
@@ -534,7 +535,7 @@ var quiz_questions = {
         },
         "answer": 2,
         "answer-img": "",
-        "answer-exp": "Geen enkel natuurlijk getal in oneindig, maar er zijn oneindig veel natuurlijke getallen. Dus voor iedere n kan je een eindige automaat maken die a^n b^n herkent, maar je kan er geen één enkele construeren voor alle mogelijke n.                                           Dit kan bewezen worden adhv de Pompstelling (stelling 4.3)                                       Bewijs: Stel dat L regulier is. Dan bestaat er volgens de pompstelling een getal k zodat |s| ≥ k en kan elke string bestaan uit s = xyz met |xy| ≤ k en |y| > 0                                                                            Stel s = aaabbb en k = 5                                       s = aa a bbb met |xy| ≤ 5 en y = bbb.                                       Een eindige automaat die s accepteert, moet xy²z ook accepteren.In dat geval bevat de string meer a's dan b's en is de taal niet correct. Contradictie."
+        "answer-exp": "Geen enkel natuurlijk getal is oneindig, maar er zijn oneindig veel natuurlijke getallen. Dus voor iedere n kan je een eindige automaat maken die a^n b^n herkent, maar je kan er geen één enkele construeren voor alle mogelijke n.                                           Dit kan bewezen worden adhv de Pompstelling (stelling 4.3)                                       Bewijs: Stel dat L regulier is. Dan bestaat er volgens de pompstelling een getal k zodat |s| ≥ k en kan elke string bestaan uit s = xyz met |xy| ≤ k en |y| > 0                                                                            Stel s = aaabbb en k = 5                                       s = aa a bbb met |xy| ≤ 5 en y = bbb.                                       Een eindige automaat die s accepteert, moet xy²z ook accepteren.In dat geval bevat de string meer a's dan b's en is de taal niet correct. Contradictie."
     },
     34: {
         "icon": "book",
@@ -773,7 +774,7 @@ var quiz_questions = {
         },
         "answer": 1,
         "answer-img": "",
-        "answer-exp": "Elke niet-vlakke graaf bevat K5 of K3,3 als subgraaf. (Stelling van Kuratowski) K5 en K3,3 bevatten beiden kringen."
+        "answer-exp": "Juist."
 
     },
     54: {
@@ -1182,7 +1183,7 @@ var quiz_questions = {
         },
         "answer": 1,
         "answer-img": "",
-        "answer-exp": "TS*T is een expressie van zichzelf en die ook regulier."
+        "answer-exp": "TS*T is een expressie van zichzelf en die is ook regulier."
     },
     88: {
         "icon": "book",
@@ -1479,7 +1480,7 @@ var quiz_questions = {
         },
         "answer-img": "",
         "answer": 1,
-        "answer-exp": "Waar. Mono = sup(T(x)) =< T(sup(x))  en continu = T(sup(x))=sup(T(x)) en continu impliceert monotoon"
+        "answer-exp": "Waar. Mono = sup(T(x)) <= T(sup(x))  en continu = T(sup(x))=sup(T(x)) en continu impliceert monotoon"
     },
     115: {
         "icon": "book",
